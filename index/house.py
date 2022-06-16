@@ -15,6 +15,7 @@ class House:
         """
         self.name = name
         self.age = age
+        
 
     @property
     def name_upper(self):
