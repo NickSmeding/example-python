@@ -30,18 +30,8 @@ class House:
         """
         if self.age < 10:
             return True
-        if self.age > 20:
-            return False
-        if self.age > 30:
-            return False
-        if self.age > 40:
-            return False
-        if self.age > 50:
-            return False
-        if self.age > 60:
-            return False
-        return False
 
+        return False
 
 if __name__ == '__main__':
     h = House('Casa del koen', -1)
