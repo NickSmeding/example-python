@@ -14,7 +14,7 @@ class House:
         :return: returns nothing
         """
         self.name = name
-        self.age = age
+        self.age = 125
 
     @property
     def name_upper(self):
